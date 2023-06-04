@@ -27,7 +27,6 @@ vector<int> nextPermutation(vector<int> &permutation, int n)
     int i=brk+1;
         for (i; i<n;i++){
             if(permutation[i]<=check){ 
-              
                 break;
             }  
         }permutation[brk]=permutation[i-1];
