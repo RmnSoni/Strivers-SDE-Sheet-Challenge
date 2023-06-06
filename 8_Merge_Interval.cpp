@@ -1,7 +1,13 @@
 /*
 Done  on 5th June 2023
 */
-#include <bits/stdc++.h> 
+#include <iostream>
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+  return 0;
+}
 /*
 
     intervals[i][0] = start point of i'th interval

@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 
+using namespace std;
 vector<vector<long long int>> printPascal(int n) 
 {
   // Write your code here.
@@ -16,4 +17,7 @@ vector<vector<long long int>> printPascal(int n)
     ans.push_back(row);
   }
   return ans;
+}
+int main(){
+	return 0;
 }

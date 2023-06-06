@@ -1,4 +1,10 @@
-#include <bits/stdc++.h> 
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+  return 0;
+}
+
 long long maxSubarraySum(int arr[], int n)
 {
     /*
@@ -18,3 +24,4 @@ long long maxSubarraySum(int arr[], int n)
 
     return maxsum;
 }
+
