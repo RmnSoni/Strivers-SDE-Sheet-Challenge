@@ -1,7 +1,7 @@
 # Striver SDE Sheet Challenge
 
 - [x] 10 Questions done
-- [ ] 20 Question done
+- [ ] 20 Questions done
 - [ ] 30 Questions done
 - [ ] 40 Questions done
 - [ ] 50 Questions done
