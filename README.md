@@ -2,7 +2,7 @@
 
 - [x] 10 Questions done
 - [x] 20 Questions done
-- [ ] 30 Questions done
+- [x] 30 Questions done
 - [ ] 40 Questions done
 - [ ] 50 Questions done
 - [ ] 60 Questions done
