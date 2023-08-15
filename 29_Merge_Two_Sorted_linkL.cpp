@@ -22,31 +22,18 @@
 Node<int> *sortTwoLists(Node<int> *first, Node<int> *second){
     Node<int> *temp = new Node<int>(0);
     Node<int> *ans = temp;
-    while (first != NULL && second != NULL)
-    {
-        if (first->data <= second->data)
-        {
+    while (first && second){
+        if (first->data <= second->data){
             temp->next = first;
             first = first->next;
-        }
-        else
-        {
+        }else{
             temp->next = second;
             second = second->next;
         }
         temp = temp->next;
     }
-    while (first != NULL)
-    {
-        temp->next = first;
-        first = first->next;
-        temp = temp->next;
-    }
-    while (second != NULL)
-    {
-        temp->next = second;
-        second = second->next;
-        temp = temp->next;
-    }
+    if (first) temp->next = first;
+    if (second) temp->next = second;
+
     return ans->next;
 }
