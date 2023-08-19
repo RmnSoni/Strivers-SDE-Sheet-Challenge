@@ -1,4 +1,8 @@
 #include <bits/stdc++.h> 
+#include <iostream>
+
+using namespace std;
+
 void sort012(int *arr, int n)
 {
    //   Write your code here
@@ -24,4 +28,12 @@ void sort012(int *arr, int n)
             break;
       }
    }
+}
+int main(){
+   int arr[5]= {0,1,2,1,0};
+   sort012(arr,5);
+   for(int i=0; i<5;i++){
+      cout<< arr[i] << " ";
+   }
+   return 0;
 }
